@@ -53,3 +53,5 @@ same account.
 ## Additional Resources
 - [Getting Started with Markdown](https://www.markdownguide.org/getting-started/)
 - [Getting Started creating a README](https://readme.so/)
+- [Oh Sh*t, Git?!](https://ohshitgit.com/)
+- [Git Merge Conflicts Tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
