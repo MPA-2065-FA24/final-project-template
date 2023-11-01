@@ -49,3 +49,7 @@ same account.
 
 :star: There are additional set up instructions if you'd like to work on your local computer. Navigate to the
 [LOCAL_INSTRUCTIONS](LOCAL_INSTRUCTIONS.md) file.
+
+## Additional Resources
+- [Getting Started with Markdown](https://www.markdownguide.org/getting-started/)
+- [Getting Started creating a README](https://readme.so/)
