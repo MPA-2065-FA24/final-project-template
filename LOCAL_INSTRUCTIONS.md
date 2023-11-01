@@ -14,7 +14,7 @@ like.
 | Operating System | Instructions | Notes |
 | --- | --- | --- |
 | Max OS | [Download for macOS](https://git-scm.com/download/mac) | I'd recommend installing [homebrew](https://brew.sh/) then installing git |
-| Windows | [Download for Windows](https://git-scm.com/download/win) | I think this also install git bash |
+| Windows | [Download for Windows](https://git-scm.com/download/win) | I think this also installs git bash |
 
 ### Generate a new SSH key to add to Github
 
@@ -34,3 +34,46 @@ accept the default file location.
 
 4. Follow [these instructions](https://docs.github.com/en/github-ae@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 to add a new SSH key to your Github Account.
+
+### Clone the Repository
+
+Same process as we have been doing for all the projects ! 
+
+Click **Code** then copy the SSH link. In your terminal (macOS)
+or Git Bash (windows), navigate to where you want to put your repository, then run `git clone <your SSH url>`.
+
+![clone repository](images/clone_repository.png)
+
+### Working in RStudio (optional)
+At this point, you can use RStudio or your IDE of choice! 
+
+![RStudio](images/RStudio.png)
+
+### Using JupyterLab Locally (optional)
+
+**Installing JupyterLab**
+
+1. [Installing JupyterLab Official Instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+  - :bulb: If you installed homebrew (MacOS) earlier you can just run `brew install jupyterlab` in your terminal !
+  - :see_no_evil: Not sure what to do for windows... see official instructions.
+
+**Add the R Kernel to Jupyter Lab**
+1. Open an R console
+  - *MacOS* - Open a terminal, type `R` and enter to open an R console. Or open RStudio and there is an R console at the bottom.
+  - *Windows* - Open RStudio, the R console is at the bottom.
+2. Install Packages. Copy the following in the R console.
+```R
+install.packages('IRkernel')
+```
+3. Make the kernel available to Jupyter to the current user
+```R
+IRkernel::installspec()
+```
+
+**Starting JupyterLab**
+1. [Starting JupyterLab Official Instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)
+
+In your terminal you can run the following line. I'd recommend navigating to your project directory first in the terminal.
+```shell
+jupyter lab
+```

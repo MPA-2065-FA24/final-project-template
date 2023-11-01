@@ -3,9 +3,10 @@
 This template is a starting point for your final project if you want to work on it in JupyterHub or on your local
 computer.
 
-Feel free to edit anything and everything in this repository because this is your project.
+Feel free to edit anything and everything in this repository because this is your project. Rewrite this README to be
+about your project!
 
-## Instructions
+## Setup Instructions
 
 ### Create your repository from this template
 1. Use this template. Click `Use this template` then `Create new repository`. This will create a new copy of this
@@ -24,38 +25,27 @@ later.
 Further instructions [Managing teams and people with access to your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository)
 
 ### Clone your repository
-Now, you and your teammates are able to clone the repository and work on it! However, there are challenges in working
-collaboratively on a coding project.
+Now, you and your teammates are able to clone the repository and work on it! And it's the same process as we have been 
+doing for all the projects !
 
-**Are you going to work on this in Jupyter Hub or on your local computer?**
+:rotating_light: :warning: If you're planning on working on this on your local computer, skip to the 
+[Local Computer](#local-computer) section below.
 
-**JupyterHub**
+Click **Code** then copy the SSH link. In your terminal (macOS)
+or Git Bash (windows), navigate to where you want to put your repository, then run `git clone <your SSH url>`.
+
+![clone repository](images/clone_repository.png)
+
+#### JupyterHub
+
+:bulb: In the JupyterHub launcher you can create notebooks `.ipynb` files and R files.
 
 ![JupyterHub launcher](./images/jupyter_hub_launcher.png)
 
 :rotating_light: :warning: Merge conflicts for `.ipynb` are difficult to clear up. I'd suggest pair-programming on the 
 same account.
 
-**Local Computer**
+#### Local Computer
 
-There are additional set up instructions if you'd like to work on your local computer. Navigate to the
+:star: There are additional set up instructions if you'd like to work on your local computer. Navigate to the
 [LOCAL_INSTRUCTIONS](LOCAL_INSTRUCTIONS.md) file.
-
-
-## Organization of Files
-`README.md`
-
-A `README.md` file is the first file a reader encounters when browsing a repository. It's used to provide orientation, especially for first-time users.
-
-`.gitignore`
-
-A hidden files is a folder or file which filesystem utilities do not display by default when showing a directory listing.
-A gitignore file specifies intentionally untracked files that Git should ignore. 
-
-`images/`
-
-Folder of images
-
-`data/`
-
-Folder of data
