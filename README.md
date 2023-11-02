@@ -55,3 +55,4 @@ same account.
 - [Getting Started creating a README](https://readme.so/)
 - [Oh Sh*t, Git?!](https://ohshitgit.com/)
 - [Git Merge Conflicts Tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
+- [Data Science Training](https://gist.github.com/hadley/820f09ded347c62c2864)
