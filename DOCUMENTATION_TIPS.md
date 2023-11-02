@@ -24,7 +24,7 @@ After we clone the directory, are there any additional steps?
 How to run the code?
 
 ## Results
-Perhaps talk about results here? Screenshots or images of plots would be nice too !
+Perhaps briefly talk about results here? Screenshots or images of plots would be nice too !
 
 ## Acknowledgements
 Any additional acknowledgements or citations?
