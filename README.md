@@ -36,19 +36,25 @@ or Git Bash (windows), navigate to where you want to put your repository, then r
 
 ![clone repository](images/clone_repository.png)
 
+### Choose to use JupyterHub or RStudio
+
+You can continue to work in JupyterHub, or you can choose to work on your local computer using RStudio. Below are instructions for both:
+
 #### JupyterHub
 
 :bulb: In the JupyterHub launcher you can create notebooks `.ipynb` files and R files.
 
-![JupyterHub launcher](./images/jupyter_hub_launcher.png)
-
 :rotating_light: :warning: Merge conflicts for `.ipynb` are difficult to clear up. I'd suggest pair-programming on the 
 same account.
 
-#### Local Computer
+![JupyterHub launcher](./images/jupyter_hub_launcher.png)
+
+#### Local Computer (RStudio)
 
 :star: There are additional set up instructions if you'd like to work on your local computer. Navigate to the
 [LOCAL_INSTRUCTIONS](LOCAL_INSTRUCTIONS.md) file.
+
+![Install R](images/install_r.png)
 
 ## Additional Resources
 - [Getting Started with Markdown](https://www.markdownguide.org/getting-started/)
